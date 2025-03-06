@@ -1,6 +1,6 @@
 import cron from "node-cron"
 import axios from "axios";
-const API_URL = "https://point-allocation-system.onrender.com/"; // Replace with your actual API
+const API_URL = "https://medicine-eekv.onrender.com/"; // Replace with your actual API
 
 // Schedule the cron job to run every 10 minutes
 cron.schedule("*/10 * * * *", async () => {
